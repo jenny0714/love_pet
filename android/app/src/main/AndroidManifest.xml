@@ -2,7 +2,7 @@
     package="com.example.pet_world">
    <application
         android:label="pet_world"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

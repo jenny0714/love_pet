@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:websafe_svg/websafe_svg.dart';
 
 void main() {
   return runApp(
@@ -33,7 +34,7 @@ class Home extends StatelessWidget {
       // Replace the 8 lines Navigator.push by a simple Get.to(). You don't need context
       body: Center(
         child: ElevatedButton(
-          child: Text("Go to Other"),
+          child: WebsafeSvg.asset("assets/images/icon.svg"),
           onPressed: () => Get.to(Other()),
         ),
       ),
